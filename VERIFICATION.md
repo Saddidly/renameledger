@@ -8,8 +8,13 @@ Release build passed with warnings treated as errors. The executable test runner
 
 ## Environment and limits
 
-Windows .NET SDK 8.0.425. No hosted CI run or published binary is claimed. Recovery after process termination is manual.
+Windows .NET SDK 8.0.425. Hosted Ubuntu/Windows checks passed; no packaged release binary is published. Recovery after process termination is manual.
 
-The checked-in CI workflow is ready to run when published. It is configuration,
-not evidence of a hosted pass. Re-run README commands after changing dependencies
-or moving to another platform. Screenshots, where included, use synthetic data.
+## Hosted evidence
+
+[GitHub Actions run](https://github.com/Saddidly/renameledger/actions/runs/37111977186) passed on 2026-10-03 for code revision `4add1c277dde7ba593bea679fb820f54c61d53fd`.
+
+Ubuntu and Windows, .NET 8; release build and behavioral test runner.
+
+These checks cover the named environments and cases, not every possible input or platform. Re-run README commands after changing dependencies or moving to another platform. Screenshots and acceptance data are synthetic.
+
