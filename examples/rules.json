@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "directory": "../inbox",
+  "recursive": false,
+  "pattern": "*.jpg",
+  "transforms": [
+    { "type": "replace", "find": "IMG_", "replacement": "", "ignoreCase": true },
+    { "type": "prefix", "value": "trip-" },
+    { "type": "numbering", "start": 1, "width": 3 }
+  ]
+}

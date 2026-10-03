@@ -1,0 +1,8 @@
+bin/
+obj/
+build/
+work/
+*.user
+*.sqlite*
+.env
+.DS_Store
